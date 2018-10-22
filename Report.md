@@ -1,5 +1,7 @@
 # Report
 
+The report is based on materials from Udacity Deep Reinforcement Learning Nanodegree Program.
+
 ## Learning Algorithm
 
 Because the project requires to handle a continuous action space, then policy gradient methods is a natural choice for the agent training.  
@@ -202,6 +204,7 @@ Note that if we take lambda factor to be 0, then the lambda return would reduce 
 It was fun to finetune the hyperparameters while working on the Reacher environment with DDPG algorithm. I received the fastest learning with the Actor and Critic having 3 layers (fc1_units=300, fc2_units=150). The Actor uses Relu activation on the first two and tanh on the final layer. The Critic uses Relu on the first two layers only.
 
 The following hyperparameters I used while training the agent:
+
 Hyperparameter | Value
 ------------ | -------------
 replay buffer size | int(1e5)

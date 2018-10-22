@@ -1,5 +1,9 @@
 # Continuous Control Project - Deep Reinforcement Learning Nanodegree
 
+![Reacher](images/animation.gif)
+
+The code is based on materials from Udacity Deep Reinforcement Learning Nanodegree Program.
+
 ## Project Details
 The repository contains a solution for the continuous control project at Udacity DRLND program. Continuous control project aims to teach how to construct reinforcement frameworks around environments with a continuous number of actions. 
 
@@ -16,6 +20,7 @@ The environment considered as being solved if an agent would get an average of +
 Current todo list:
 - [x] DDPG
 - [ ] DDPG+PER
+- [ ] DDPG+GAE
 - [ ] PPO
 
 ## Getting Started
